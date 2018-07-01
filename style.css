@@ -1,0 +1,85 @@
+/*system dasar*/
+*{box-sizing: border-box;}
+body{padding: 0;margin: 0;font-family: 'Muli', sans-serif;background-image: url(img/bgchat.jpg);background-position: top;background-size: cover;background-attachment: fixed;overflow: hidden;;}
+form{padding: 0;}
+input[type=search]{border-radius: 20px;padding: 10px;border: 0;background-color: #ddd;width: 100%}
+input[type=text]{padding: 10.5px;margin: 6.5px 6.5px;font-size: 20px;border: 0;background-color: inherit;}
+input[type=password]{padding: 10.5px;margin: 6.5px 6.5px;font-size: 20px;border: 0;background-color: inherit;}
+input[type=button]{border-radius: 10px;padding: 5px;margin: 6.5px 5px;font-size: 10px;border: 0;background-color: #DBA400;color: #fff;width: 93.5px;cursor: pointer;}
+input[type=submit]{border-radius: 40px;padding: 5px;margin: 6.5px 5px;font-size: 10px;border: 0;color: #fff0;cursor: pointer;}
+input:focus, textarea:focus, select:focus{outline: none;}
+h1{margin: 5px 0 25px 0;font-size: 40px;font-weight: bold;}
+strong{font-size: 20px;}
+p{margin: 5px;}
+
+/*tambahan*/
+.clear{clear: both;}
+
+/*bagian heading*/
+.headpage{width: 100px;margin: 20px auto 0;}
+.logout{width: 50px;margin: 20px auto 0;}
+
+/*box aplikasi pesan*/
+.container-page{width: 1400px;height: 700px;margin: 20px auto;border: 1px solid #ddd;border-radius: 10px;overflow: hidden;box-shadow: 0 0 20px #0005;}
+
+/*kontak box*/
+.c-contact{width: 300px;height: 100%;border-right: 1px solid #ddd;float: left;}
+
+/*head box kontak*/
+.head-contact{padding: 20px;border-bottom: 1px solid #ddd;background-color: #fff;}
+.c-photo{float: left;margin: 20px;}                                                           /*foto kontak*/
+.c-info{float: left;margin: 20px 0 10px 0;}                                                   /*keterangan kontak*/
+.minitext{line-height: 35px;}                                                                 /*chat terakhir kontak*/
+.contact-list{overflow: none;overflow-x: hidden;height: 542px;background-color: #fff;}        /*daftar kontak*/
+.contact-i{background-color: #fff;}
+.contact-i:hover{background-color: #0001;cursor: pointer;}                                    /*hover daftar kontak*/
+
+/*chat box*/
+.c-chat{float: left;width: 1098px;}
+
+/*heading chat*/
+.head-chat{width: 1098px;border-bottom: 1px solid #ddd;background-color: #fff;}
+.h-c-photo{float: left;margin: 20px;height: 50px;}
+.h-c-info{float: left;margin: 28px 0 32px 0;font-size: 30px;}
+.h-c-dell{float: right;margin: 30px;cursor: pointer;}
+
+/*bagian chat*/
+.chat-list{overflow: scroll;overflow-x: hidden;height: 540px;border-bottom: 1px solid #ddd;background-color: #fffd;}
+
+/*balon chat*/
+.me{float: right;padding: 20px;max-width: 600px;margin: 10px 80px;background-color: #F05446;border-radius: 20px 20px 0px 20px;color: #fff;box-shadow: inset 0 0 10px #0003;}
+/* (backup).c-c-me::before{float: right;padding: 20px 0;margin: 0 80px 0 0;content: url(img/me.png);}*/
+.yu{float: left;padding: 20px;max-width: 600px;margin: 10px 0 10px 80px;background-color: #6fadff;border-radius: 20px 20px 20px 0;color: #ffffff;box-shadow: inset 0 0 10px #0003;}
+.me:hover,.yu:hover{box-shadow: 0 0 2px 1px #0006;}
+
+/*bagian penulisan chat*/
+.chat-input{background-color: #fff;height: 60px;}
+
+/*tombol chat*/
+.kr{background-color: #00a611;width: 20px;} .kr:hover{background-color: #00900f;}
+.ft{background-color: #FFC100;width: 20px;} .ft:hover{background-color: #e8b000;}
+.af{background-color: #CB4539;width: 20px;} .af:hover{background-color: #b33c31;}
+.ipt-chat{width: 970px;}
+::placeholder{color: #00000040;text-align: center;}
+
+/*scrollbar*/
+::-webkit-scrollbar {width: 10px;}                          /*lebar scroll bar*/
+::-webkit-scrollbar-track {background-color: #f5f5f500;}    /* Track */
+::-webkit-scrollbar-thumb {background: #cd5a5a50;}          /* Handle */
+::-webkit-scrollbar-thumb:hover {background: #aD5A5A80;}    /* Handle on hover */
+
+/*login*/
+.container-login{width: 400px;margin: 20px auto 0;}
+.paper-login{background-color: #fffc;border-radius: 10px;box-shadow: 0 0 20px #0005;}
+.head-paper{padding: 20px;}
+.form{padding: 20px;}
+.username,.password{width: 360px;margin: 20px 0 !important;padding: 20px !important;text-align: center;}
+.input-logreg{width: auto;margin: 20px 0 30px;padding: 0 70px 0 70px;}
+.register input[type=button]{background-color: #CB4539;width: 75px;padding: 5px !important}
+.register input[type=submit]{background-color: #CB4539;width: 75px;padding: 5px !important}
+.register {max-width: 50%;float: left;}
+.login input[type=button]{background-color: #00a611;width: 75px;padding: 5px !important}
+.login input[type=submit]{background-color: #00a611;width: 75px;padding: 5px !important}
+.login {max-width: 50%;float: right;}
+.tolong{color: #fff;text-align: center;margin: 20px 0;text-shadow: 0 0 15px #000;}
+.tolong a{color: #fff;font-weight: bold; text-decoration: none;}
